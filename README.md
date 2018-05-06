@@ -1,6 +1,9 @@
 # k_cipher
 This encryption is still in the test stage.
 
+## Improtant Notice:
+Please do not (yet) use the cipher. It is still in the development stage and many tests are still necessary. 
+
 ## The acceptance criteria were:
 - easy to learn how it works (must be understood by an 8-year-old child)
 - the key must not be limited in its length
