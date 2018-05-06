@@ -1,5 +1,5 @@
 # k_cipher
-This encryption is still in the test stage. Due to the limited durability of AES, due to the limited key length, I have designed a new algorithm.
+This encryption is still in the test stage.
 
 ## The acceptance criteria were:
 - easy to learn how it works (must be understood by an 8-year-old child)
@@ -11,15 +11,9 @@ This encryption is still in the test stage. Due to the limited durability of AES
 The test and key will be converted from a string to a binary code.
 The key runs through the text with 2 bits each. The 2 bit set decides which of the four tranlationsMaps will be used.
 
-```mermaid
-graph LR
-A[binaryKey.split] --> B{For each.split.text}
-A --> C(if split key even/odd)
-A --> E(translate actual bit.split with keyMap)
-E --> B
-C --> B
-B --> D(return encryption.text)
-```
+![schema of k_cipher](https://raw.githubusercontent.com/skalski/k_cipher/master/readme_assets/01.png)
+
+
 The text to be encrypted is then moved by 1 bit. Here the 2 bit set decides whether negative or positive. This decision is set by the odd/ even state of the bit set.
 
 ### License
