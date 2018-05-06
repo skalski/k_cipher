@@ -1,7 +1,7 @@
 # k_cipher
 This encryption is still in the test stage.
 
-## Improtant Notice:
+## Important Notice:
 Please do not (yet) use the cipher. It is still in the development stage and many tests are still necessary. 
 
 ## The acceptance criteria were:
