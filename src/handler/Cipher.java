@@ -1,6 +1,6 @@
 package handler;
 
-import maps.TranslationMap;
+import key.maps.TranslationMap;
 
 import java.util.*;
 
@@ -13,7 +13,7 @@ public class Cipher {
     public Cipher(String binaryKey, String binaryText) {
         this.binaryKey = binaryKey;
         this.binaryText = binaryText;
-        this.translationMap = TranslationMap.getTranslationMap();
+        this.translationMap = TranslationMap.getTranslationMap(binaryKey);
     }
 
     public String encrypt() {
