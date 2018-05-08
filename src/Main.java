@@ -30,5 +30,7 @@ public class Main {
                 Binary.stringToBinary(testKey),
                 Binary.stringToBinary(Binary.binaryToString(encryption.encrypt()))
         );
+
+        System.out.println(Binary.binaryToString(decryption.decrypt()));
     }
 }
