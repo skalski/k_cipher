@@ -48,7 +48,9 @@ The Result is: <br>
 This is a very common and simple encryption/substitution.
 Now we move the bitset to the left, cause the boolean meaning of the key bit is false.
 So we got: <br>
-```110011111100110101001001110010011100100001111010```
+```110011111100110101001001110010011100100001111010```<br>
+This will happend for every bit of the key.
+
 ### License
 You can test the code and use it privately. It is not allowed to use the code without my permission, provided that the using project generates financial income (regardless of the source).
 Other non-profit projects must name the origin of the algorithm and the author.
